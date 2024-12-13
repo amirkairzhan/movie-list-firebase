@@ -1,0 +1,20 @@
+{
+  "name": "movies",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps --dist-dir prod"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "domain-browser": "^3.5.0",
+    "events": "^3.3.0",
+    "parcel": "latest",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "firebase": "^10.13.2",
+    "uuid": "^10.0.0"
+  }
+}
